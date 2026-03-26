@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen">
+      <body className="min-h-screen" suppressHydrationWarning>
         <nav className="border-b border-gray-200 bg-white">
           <div className="mx-auto max-w-5xl px-4 py-4">
             <a href="/" className="text-lg font-bold text-primary-700">
